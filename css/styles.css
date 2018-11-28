@@ -1,0 +1,59 @@
+/* Base styles */
+
+body {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* working on colors */
+
+/* h1 {
+    color: red;
+    /* padding-top: 100px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-bottom: 5px; */
+
+    /* padding: 100px 10px 5px 50px; */
+    /* line-height: 90px; */
+    /* margin: 50px 20px 15px 10px; */
+/* } */ 
+
+header {
+    background-color: #2F2B2B;
+    margin: 3.125em 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 1.875em 0;
+    list-style-type: none;
+    float: right
+}
+
+nav a {
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
+    margin-top: 3.125em;
+    font-size: 1.250em;
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+a:hover {
+    color: blue
+}
