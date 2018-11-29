@@ -1,9 +1,12 @@
 /* Base styles */
 
+/* below are the styles used for the body of the webpage */
+
 body {
     font-family: 'Black Han Sans', sans-serif;
     font-family: 'Amatic SC', cursive;
     font-family: 'Prompt', sans-serif;
+    background-color: rgb(68, 68, 68);
 }
 
 /* working on colors */
@@ -20,17 +23,24 @@ body {
     /* margin: 50px 20px 15px 10px; */
 /* } */ 
 
+/* below are the styles for the header of my webpage */
+
 header {
-    background-color: #2F2B2B;
+    background-color: rgb(47, 43, 43);
     margin: 3.125em 0;
+    padding: 10px;
     width: 100%;
     margin: 0 auto;
 }
+
+/* properties for the images */
 
 img {
     width: 100px;
     height: auto;
 }
+
+/* properties for both link, unordered list and the list tags */
 
 nav ul {
     margin: 0;
@@ -54,6 +64,57 @@ li {
     padding: 20px;
 }
 
+/* The text changes color when the cursor hovers over it */
+
 a:hover {
-    color: blue
+    color: rgb(0, 0, 255)
 }
+
+/* IDs and Classes */
+
+/* Below is how you show an ID selctor */
+
+/* #container {
+    margin: 0 10%;
+    max-width: 1100px;
+} */
+
+/* This is how you show a Class selector */
+
+.container {
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+Class selector for the s
+
+.intro {
+    color: black;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    text-orientation: lowercase;
+    font-weight: 500;
+    background-color:darkblue;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn {
+    background-color: rgb(0, 0, 139);
+}
+
+ul a {
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    -ms-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+   }
