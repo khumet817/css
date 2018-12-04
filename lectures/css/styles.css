@@ -1,0 +1,121 @@
+/* Base styles */
+
+/* below are the styles used for the body of the webpage */
+
+body {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Prompt', sans-serif;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+
+/* working on colors */
+
+/* h1 {
+    color: red;
+    /* padding-top: 100px;
+    padding-right: 10px;
+    padding-left: 50px;
+    padding-bottom: 5px; */
+
+    /* padding: 100px 10px 5px 50px; */
+    /* line-height: 90px; */
+    /* margin: 50px 20px 15px 10px; */
+/* } */ 
+
+/* below are the styles for the header of my webpage */
+
+header {
+    background-color: rgb(47, 43, 43);
+    margin: 3.125em 0;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* properties for the images */
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+/* properties for both link, unordered list and the list tags */
+
+nav ul {
+    margin: 0;
+    padding: 1.875em 0;
+    list-style-type: none;
+    float: right
+}
+
+nav a {
+    text-decoration: none;
+    color: beige;
+    text-transform: uppercase;
+    margin-top: 3.125em;
+    font-size: 1.250em;
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+/* The text changes color when the cursor hovers over it */
+
+a:hover {
+    color: rgb(0, 0, 255)
+}
+
+/* IDs and Classes */
+
+/* Below is how you show an ID selctor */
+
+/* #container {
+    margin: 0 10%;
+    max-width: 1100px;
+} */
+
+/* This is how you show a Class selector */
+
+.container {
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+Class selector for the s
+
+.intro {
+    color: black;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    text-orientation: lowercase;
+    font-weight: 500;
+    background-color:darkblue;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn {
+    background-color: rgb(0, 0, 139);
+}
+
+ul a {
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    -ms-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+   }
