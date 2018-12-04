@@ -6,8 +6,10 @@ body {
     font-family: 'Black Han Sans', sans-serif;
     font-family: 'Amatic SC', cursive;
     font-family: 'Prompt', sans-serif;
-    background-image: url();
+    background-image: url(../images/adidas-pureboost-dpr-colossal-media-murals-bushwick-4-min.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 /* working on colors */
@@ -27,11 +29,12 @@ body {
 /* below are the styles for the header of my webpage */
 
 header {
-    background-color: rgb(47, 43, 43);
+    background-color: rgb(255, 255, 255);
     margin: 3.125em 0;
     padding: 10px;
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 7px auto;
+    border-radius: 5px;
 }
 
 /* properties for the images */
@@ -52,7 +55,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: beige;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     margin-top: 3.125em;
     font-size: 1.250em;
@@ -68,7 +71,7 @@ li {
 /* The text changes color when the cursor hovers over it */
 
 a:hover {
-    color: rgb(0, 0, 255)
+    color: rgb(255, 145, 0)
 }
 
 /* IDs and Classes */
@@ -83,16 +86,20 @@ a:hover {
 /* This is how you show a Class selector */
 
 .container {
-    background-color: rgb(0, 0, 255);
+    background-color:  rgba(153, 205, 49, 0.65);
     text-align: center;
     padding: 5px;
+    background-image: linear-gradient(left to right, rgb(255, 255, 0), rgb(0, 127, 0));
+    border-radius: 10px;
 }
 
 Class selector for the s
 
 .intro {
-    color: black;
+    color: rgb(211, 78, 16);
     text-align: center;
+    position: fixed;
+    
 }
 
 button {
@@ -100,16 +107,17 @@ button {
     padding: 10px;
     text-orientation: lowercase;
     font-weight: 500;
-    background-color:darkblue;
+    background-color:rgba(190, 25, 25, 0.44);
     border-radius: 8px;
 }
 
 button:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(61, 78, 151, 0.247);
+    text-decoration-color: rgba(3, 34, 89, 0.98);
 }
 
 .btn {
-    background-color: rgb(0, 0, 139);
+    background-color: rgba(190, 25, 25, 0.44);
 }
 
 ul a {
